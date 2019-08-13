@@ -7,16 +7,16 @@
 * JDK 1.8
 
 ## 快速开始
+*  启动服务注册中心 参考  https://github.com/Jacwo/eureka-server
+* ``git clone https://github.com/Jacwo/eureka-server-provider.git `` 
 
-* ``git clone https://github.com/Jacwo/eureka-server.git `` 
-
-* ``cd eureka-server ``
+* ``cd eureka-server-provider ``
  
 * ``mvn spring-boot:run ``
 
 ## 测试
 
-* 打开浏览器输入 http:localhost:8672 查看
+* 打开浏览器输入 http://localhost:8761/hello 查看
 
 
 
