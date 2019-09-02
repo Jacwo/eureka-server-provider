@@ -25,9 +25,12 @@ public class HelloController {
     }
     @RequestMapping(value = "/hello",method = RequestMethod.GET)
     public String hello(){
+        $aa();
         ServiceInstance serviceInstance=client.getLocalServiceInstance();
         logger.info("/hello host:"+serviceInstance.getHost());
         return "hello";
     }
-
+    public void $aa() {
+        String _name = "name";
+    }
 }
