@@ -14,7 +14,7 @@ import java.util.Random;
  * @author yangyuanliang
  */
 @RestController
-public class HelloController {
+public class HelloController  {
     private final Logger logger=Logger.getLogger(HelloController.class);
     @Autowired
     private DiscoveryClient client;
